@@ -1,3 +1,51 @@
+body {
+  background-color: #006151;
+
+}
+
+.container {
+  background-color: #18B197;
+  margin-top: 15%;
+  width: 800px;
+  height: 250px;
+  margin-left: 0 auto;
+  padding: 15px;
+  border: solid #007B66;
+  border-radius: 10px;
+
+}
+
+h1 {
+  color: #006151;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+
+}
+
+p {
+  text-align: center;
+}
+
+.form-group {
+  margin-left: 125px;
+}
+
+#submit-btn {
+  margin-right: 155px;
+  float:right;
+
+}
+
 #result {
-  display: none;
+  display:none;
+  text-align: center;
+  margin-right: 120px;
+  font-family: 'Annie Use Your Telescope', cursive;
+
+}
+
+input[type=text]{
+  border-radius:10px;
 }
